@@ -18,6 +18,7 @@ class MainController extends CI_Controller {
             'lib_dir'=> $this->lib_dir
         );
 		$this->load->view('common/header',$data);
+		$this->load->view('common/navigation');
 		$this->load->view('main');
 		$this->load->view('common/footer');
     }
