@@ -1,0 +1,218 @@
+{
+  "ftp://lovejin90.com:21@lovejin90": {
+    "home": {
+      "www": {
+        ".git": {},
+        ".gitignore": {
+          "type": "-",
+          "size": 593,
+          "lmtime": 0,
+          "modified": false
+        },
+        ".vscode": {},
+        "README.md": {
+          "type": "-",
+          "size": 0,
+          "lmtime": 0,
+          "modified": false
+        },
+        "application": {
+          ".htaccess": {
+            "type": "-",
+            "size": 123,
+            "lmtime": 0,
+            "modified": false
+          },
+          "cache": {},
+          "config": {
+            "autoload.php": {
+              "type": "-",
+              "size": 4025,
+              "lmtime": 0,
+              "modified": false
+            },
+            "config.php": {
+              "type": "-",
+              "size": 18631,
+              "lmtime": 1545628272055,
+              "modified": false
+            },
+            "constants.php": {
+              "type": "-",
+              "size": 4322,
+              "lmtime": 0,
+              "modified": false
+            },
+            "database.php": {
+              "type": "-",
+              "size": 4514,
+              "lmtime": 0,
+              "modified": false
+            },
+            "doctypes.php": {
+              "type": "-",
+              "size": 2441,
+              "lmtime": 0,
+              "modified": false
+            },
+            "foreign_chars.php": {
+              "type": "-",
+              "size": 2993,
+              "lmtime": 0,
+              "modified": false
+            },
+            "hooks.php": {
+              "type": "-",
+              "size": 417,
+              "lmtime": 0,
+              "modified": false
+            },
+            "index.html": {
+              "type": "-",
+              "size": 131,
+              "lmtime": 0,
+              "modified": false
+            },
+            "memcached.php": {
+              "type": "-",
+              "size": 498,
+              "lmtime": 0,
+              "modified": false
+            },
+            "migration.php": {
+              "type": "-",
+              "size": 3032,
+              "lmtime": 0,
+              "modified": false
+            },
+            "mimes.php": {
+              "type": "-",
+              "size": 9087,
+              "lmtime": 0,
+              "modified": false
+            },
+            "profiler.php": {
+              "type": "-",
+              "size": 477,
+              "lmtime": 0,
+              "modified": false
+            },
+            "routes.php": {
+              "type": "-",
+              "size": 195,
+              "lmtime": 1545628412407,
+              "modified": false
+            },
+            "smileys.php": {
+              "type": "-",
+              "size": 3181,
+              "lmtime": 0,
+              "modified": false
+            },
+            "user_agents.php": {
+              "type": "-",
+              "size": 6036,
+              "lmtime": 0,
+              "modified": false
+            }
+          },
+          "controllers": {
+            "MainController.php": {
+              "type": "-",
+              "size": 200,
+              "lmtime": 1545628428174,
+              "modified": false
+            },
+            "Welcome.php": {
+              "type": "-",
+              "size": 679,
+              "lmtime": 0,
+              "modified": false
+            },
+            "index.html": {
+              "type": "-",
+              "size": 131,
+              "lmtime": 0,
+              "modified": false
+            }
+          },
+          "core": {},
+          "helpers": {},
+          "hooks": {},
+          "index.html": {
+            "type": "-",
+            "size": 131,
+            "lmtime": 0,
+            "modified": false
+          },
+          "language": {},
+          "libraries": {},
+          "logs": {},
+          "models": {},
+          "resources": {
+            "lib": {
+              "css": {},
+              "images": {},
+              "js": {
+                "jquery-3.3.1.min.js": {
+                  "type": "-",
+                  "size": 86927,
+                  "lmtime": 1545628896678,
+                  "modified": false
+                },
+                "vue.js": {
+                  "type": "-",
+                  "size": 285300,
+                  "lmtime": 1545628896735,
+                  "modified": false
+                },
+                "jquery.flexslider.js": {
+                  "type": "-",
+                  "size": 57026,
+                  "lmtime": 1545628932233,
+                  "modified": false
+                }
+              }
+            },
+            "uploads": {}
+          },
+          "third_party": {},
+          "views": {}
+        },
+        "composer.json": {
+          "type": "-",
+          "size": 557,
+          "lmtime": 0,
+          "modified": false
+        },
+        "contributing.md": {
+          "type": "-",
+          "size": 6504,
+          "lmtime": 0,
+          "modified": false
+        },
+        "index.php": {
+          "type": "-",
+          "size": 10253,
+          "lmtime": 0,
+          "modified": false
+        },
+        "license.txt": {
+          "type": "-",
+          "size": 1114,
+          "lmtime": 0,
+          "modified": false
+        },
+        "readme.rst": {
+          "type": "-",
+          "size": 2352,
+          "lmtime": 0,
+          "modified": false
+        },
+        "system": {},
+        "user_guide": {}
+      }
+    }
+  },
+  "$version": 1
+}
