@@ -59,37 +59,6 @@
 			}
 		});
 
-		// var bs = new Array();
-		// var ws = new Array();
-		// $(".ws").each(function(){
-		// 	ws.push($(this).offset());
-		// });
-		// $(".bs").each(function(){
-		// 	bs.push($(this).offset());
-		// });
-
-		$(window).scroll( function() {
-			var ns = $(".top-area").offset();
-			// if (ns.top >= ws[0].top) {
-			// 	$('.top-area a').css("color","#000");
-			// }
-			// if (ns.top >= ws[1].top) {
-			// 	$('.top-area a').css("color","#000");
-			// }
-			// if ( ns.top >= bs[0].top && ns.top < ws[1].top) {
-			// 	$('.top-area a').css("color","#fff");
-			// }
-			if ($( this ).scrollTop() > 200 ) {
-				$('.top-area').fadeIn();
-			} else {
-				$('.top-area').fadeOut();
-			}
-		});
-
-		$( '.top' ).click( function() {
-			$("body,html").animate( { scrollTop : 0 }, 400 );
-			return false;
-		});
 		$("#s_text").addClass("active");
 	});
 </script>

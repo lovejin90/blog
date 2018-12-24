@@ -14,7 +14,7 @@ class MainController extends CI_Controller {
 	public function index()
 	{
         $data = array(
-            'title' => 'main page',
+            'title' => 'JEON BYEONG JIN',
             'lib_dir'=> $this->lib_dir
         );
 		$this->load->view('common/header',$data);
@@ -22,13 +22,28 @@ class MainController extends CI_Controller {
 		$this->load->view('main');
 		$this->load->view('common/footer');
     }
-
-    public function test()
+ 
+    public function about()
 	{
-        var_dump('dsfdasf');
         $data = array(
-            'title' => 'main page'
+            'title' => 'About',
+            'lib_dir'=> $this->lib_dir
         );
-		$this->load->view('test',$data);
+        $this->load->view('common/header',$data);
+		$this->load->view('common/navigation');
+		$this->load->view('about');
+		$this->load->view('common/footer');
+    }
+    
+    public function skill()
+	{
+        $data = array(
+            'title' => 'Skill',
+            'lib_dir'=> $this->lib_dir
+        );
+        $this->load->view('common/header',$data);
+		$this->load->view('common/navigation');
+		$this->load->view('skill');
+		$this->load->view('common/footer');
 	}
 }

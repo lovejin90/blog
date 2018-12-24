@@ -23,7 +23,7 @@ nav.posision-right .top-menu{
     top: 50%;
     margin-top : -175px;
     /*text-align: center;*/
-    width: 100px;
+    width: 103px;
     /* height: 270px; */
     line-height: 55px;
     background-color : #232020;
@@ -282,8 +282,20 @@ nav.top-area .top{
     display: inline-block;
     padding: 80px 0;
     background : url("/resources/lib/images/main3.jpg") center center / cover no-repeat;
+    position: relative;
 }
-
+#content-area::after{
+    content: "";
+    background: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+#content-area > *{
+    z-index: 10;
+}
 #content-area .content{
     max-width:1000px;
     height: auto;
@@ -291,7 +303,9 @@ nav.top-area .top{
     text-align: center;
     font-family: 'Teko', sans-serif;
     color : #fff;
+    position: relative;
 }
+
 #content-area .content h1 {
     font-size :  48px;
     font-weight: bold;
@@ -401,3 +415,36 @@ nav.top-area .top{
     font-size: 3em;
     padding-right: 10px;
 }
+#about .content .sns-box .sns-list .item a{
+    color : #000;
+}
+
+#skill .wrap .content {
+    width:1000px;
+    margin:100px auto 0 auto;
+    text-align: center;
+}
+#skill .wrap .content .title{
+    font-weight: 900;
+    font-size: 22px;
+
+}
+#skill .wrap .content .s-list-box {
+
+    margin-top : 30px;
+}
+#skill .wrap .content .s-list-box .s-list li{
+    width: 218px;
+    height: 245px;
+    float: left;
+    margin-left:30px;
+
+}
+#skill .wrap .content .s-list-box .s-list li .photo-area{
+    width: 150px;
+    height: 150px;
+    border: 1px solid;
+    margin: 25px auto;
+    border-radius: 100px;
+}
+

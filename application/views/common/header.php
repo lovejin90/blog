@@ -19,6 +19,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR|Teko" rel="stylesheet">
 
+	<script src="<?=$lib_dir?>js/main.js"></script>
 	<link href="<?=$lib_dir?>css/main.css" rel="stylesheet">
 </head>
 <body>

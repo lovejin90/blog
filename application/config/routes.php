@@ -4,4 +4,5 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $route['default_controller'] = 'mainController';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
-$route['test'] = 'mainController';
+$route['about'] = 'mainController/about';
+$route['skill'] = 'mainController/skill';

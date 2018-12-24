@@ -4,7 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $config['base_url'] = 'https://lovejin90.com/';
 $config['index_page'] = '';
 $config['uri_protocol']	= 'REQUEST_URI';
-$config['url_suffix'] = '';
+$config['url_suffix'] = '.html';
 $config['language']	= 'korean';
 $config['charset'] = 'UTF-8';
 $config['enable_hooks'] = FALSE;
