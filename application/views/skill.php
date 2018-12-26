@@ -34,6 +34,13 @@
                         <h1>PHP</h1>
                         <span>Expert</span>
                     </li>  
+                    <li>
+                        <div class="photo-area">
+                            <img src="">
+                        </div>
+                        <h1>PHP</h1>
+                        <span>Expert</span>
+                    </li>  
 
                 </ul>
             </div>

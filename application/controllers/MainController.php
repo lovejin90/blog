@@ -14,7 +14,7 @@ class MainController extends CI_Controller {
 	public function index()
 	{
         $data = array(
-            'title' => 'JEON BYEONG JIN',
+            'title' => '',
             'lib_dir'=> $this->lib_dir
         );
 		$this->load->view('common/header',$data);
@@ -26,7 +26,7 @@ class MainController extends CI_Controller {
     public function about()
 	{
         $data = array(
-            'title' => 'About',
+            'title' => ' :: About',
             'lib_dir'=> $this->lib_dir
         );
         $this->load->view('common/header',$data);
@@ -38,7 +38,7 @@ class MainController extends CI_Controller {
     public function skill()
 	{
         $data = array(
-            'title' => 'Skill',
+            'title' => ' :: Skill',
             'lib_dir'=> $this->lib_dir
         );
         $this->load->view('common/header',$data);

@@ -4,7 +4,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <html lang="ko">
 <head>
 	<meta charset="utf-8">
-	<title><?=$title?></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0">
+	<title>JEON BYEONG JIN<?=$title?></title>
 
 	<script src="<?=$lib_dir?>js/jquery-3.3.1.min.js"></script>
 	<!-- bootstrap -->
