@@ -6,42 +6,15 @@
             </div>
             <div class="s-list-box">
                 <ul class="s-list">
+                    <?php foreach($sData as $v):?>
                     <li>
                         <div class="photo-area">
-                            <img src="">
+                            <img src="<?=$lib_dir?>images<?=$v['img_dir']?>">
                         </div>
-                        <h1>PHP</h1>
-                        <span>basic</span>
+                        <h1><?=$v['name']?></h1>
+                        <span><?=$v['level']?></span>
                     </li>  
-                    <li>
-                        <div class="photo-area">
-                            <img src="">
-                        </div>
-                        <h1>PHP</h1>
-                        <span>intermediate</span>
-                    </li>  
-                    <li>
-                        <div class="photo-area">
-                            <img src="">
-                        </div>
-                        <h1>PHP</h1>
-                        <span>Expert</span>
-                    </li> 
-                    <li>
-                        <div class="photo-area">
-                            <img src="">
-                        </div>
-                        <h1>PHP</h1>
-                        <span>Expert</span>
-                    </li>  
-                    <li>
-                        <div class="photo-area">
-                            <img src="">
-                        </div>
-                        <h1>PHP</h1>
-                        <span>Expert</span>
-                    </li>  
-
+                    <?php endforeach;?>
                 </ul>
             </div>
         </section>

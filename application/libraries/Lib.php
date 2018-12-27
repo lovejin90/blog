@@ -46,4 +46,11 @@ class Lib {
                 echo "<script type='text/javascript'> alert('$msg'); window.close(); </script>";
                 exit;
         }
+
+        public function calc_date_month($date){
+                $bDate = new DateTime(date('Y-m-d',strtotime($date)));
+                $nDate = new DateTime(date('Y-m-d'));
+                return $bDate->diff($nDate)->m + ($bDate->diff($nDate)->y*12);
+
+        }
 }
