@@ -4,7 +4,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <html lang="ko">
 <head>
 	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="title" content="JEON BYEONG JIN">
+	<meta name="author" content="병지니">
+	<meta name="keywords" content="개인포트폴리오 사이트">
+	<meta name="subject" content="JEON BYEONG JIN">
+	<meta name="content-language" content="ko">
+	<meta name="copyright" content="Lovejin90 All rights reserved">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0">
+	<meta name="naver-site-verification" content="267adbac0ede0230a9f300a30a1def3764839349"/>
 	<title>JEON BYEONG JIN<?=$title?></title>
 
 	<script src="<?=$lib_dir?>js/jquery-3.3.1.min.js"></script>
