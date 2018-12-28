@@ -24,14 +24,12 @@
 				</div>
 				
 				</li>
-				<?php
-					endforeach;
-				?>
+				<?php endforeach;?>
 				
 			</ul>
 		</div>
 	</section>
-	<section id="content-area" class="bs">
+	<section id="content-area-1" class="content-area">
 		<div class="content">
 			<h1>Who?</h1>
 			<span>My hobbies</span>
@@ -48,6 +46,7 @@
 			<h2>jun2642@gmail.com</h2>
 		</div>
 	</section>
+
 </div>
 
 

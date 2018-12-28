@@ -7,6 +7,7 @@ class Error404 extends CI_Controller {
     {
         parent::__construct();
         $this->lib_dir = $this->config->item('lib_dir'); 
+        $this->load->library('rssparser');
     }
 
     public function index(){
@@ -14,9 +15,13 @@ class Error404 extends CI_Controller {
             'title' => 'JEON BYEONG JIN',
             'lib_dir'=> $this->lib_dir
         );
+
+        $mData = array(
+            'rss' => $this->rssparser->set_feed_url('https://load-map.com/rss')->getFeed(6)
+        );
 		$this->load->view('common/header',$data);
 		$this->load->view('common/navigation');
-		$this->load->view('main');
+		$this->load->view('main',$mData);
 		$this->load->view('common/footer');
     }
 

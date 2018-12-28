@@ -13,9 +13,6 @@ class MainController extends CI_Controller {
 
 	public function index()
 	{
-        $url = 'https://load-map.com/rss';
-         	// get feed
-
         $data = array(
             'title' => '',
             'lib_dir'=> $this->lib_dir
@@ -67,5 +64,24 @@ class MainController extends CI_Controller {
 		$this->load->view('common/navigation');
 		$this->load->view('skill',$mData);
 		$this->load->view('common/footer');
+    }
+    
+    public function board()
+	{
+        $data = array(
+            'title' => ' :: Board',
+            'lib_dir'=> $this->lib_dir
+        );
+
+        $mData = array(
+            'rss' => $this->rssparser->set_feed_url('https://load-map.com/rss')->getFeed(10)
+        );
+
+        $this->load->view('common/header',$data);
+		$this->load->view('common/navigation');
+		$this->load->view('board',$mData);
+		$this->load->view('common/footer');
 	}
 }
+
+

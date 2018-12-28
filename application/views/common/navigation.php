@@ -6,7 +6,7 @@
 			<li><a href="/about.html"><i class="fa fa-user-alt"></i><span>About</span></a></li>
 			<li><a href="/skill.html"><i class="fa fa-globe"></i><span>Skill</span></a></li>
 			<!-- <li><a href=""><i class="fas fa-plane"></i><span>Travels</span></a></li> -->
-			<li><a href="/link.html"><i class="fa fa-link"></i><span>Link</span></a></li>
+			<!-- <li><a href="/board.html"><i class="fa fa-clipboard-list"></i><span>&nbsp;Board</span></a></li> -->
 		</ul>
 	</div>
 </nav>
@@ -35,5 +35,7 @@
 </nav>
 
 <div class="lscape">
-	<h4>가로스크린은 지원하지 않습니다.</h4>
+	<div class="content">
+		<h1>JEON BYEONG JIN</h1>
+	</div>
 </div>

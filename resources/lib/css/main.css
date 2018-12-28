@@ -299,7 +299,7 @@ nav.top-area .top{
     font-size : 35px;
     margin-top :25px;
 }
-#content-area { 
+#content-area-1 { 
     width: 100%;
     height: auto;
     display: inline-block;
@@ -307,7 +307,7 @@ nav.top-area .top{
     background : url("/resources/lib/images/main3.jpg") center center / cover no-repeat;
     position: relative;
 }
-#content-area::after{
+#content-area-1::after{
     content: "";
     background: rgba(0, 0, 0, 0.4);
     position: absolute;
@@ -316,10 +316,10 @@ nav.top-area .top{
     right: 0;
     bottom: 0;
 }
-#content-area > *{
+#content-area-1 > *{
     z-index: 10;
 }
-#content-area .content{
+#content-area-1 .content{
     max-width:1000px;
     height: auto;
     margin : 0 auto;
@@ -329,35 +329,35 @@ nav.top-area .top{
     position: relative;
 }
 
-#content-area .content h1 {
+#content-area-1 .content h1 {
     font-size :  48px;
     font-weight: bold;
 }
-#content-area .content span{
+#content-area-1 .content span{
     display: inline-block;
     width: 100%;
     font-size: 25px;
     margin-top: 5px;
     padding-bottom: 25px;
 }
-#content-area .content .cards {
+#content-area-1 .content .cards {
     display: inline-block;
 }
 
-#content-area .content .cards .card {
+#content-area-1 .content .cards .card {
     width: 250px;
     height: 250px; 
     float : left;
     border-radius: 180px;
     overflow: hidden;
 }
-#content-area .content .cards .card img {
+#content-area-1 .content .cards .card img {
     object-fit: cover;
     object-position: center;
     width: 100%;
     height: 100%;
 }
-#content-area .content .cards .card span{
+#content-area-1 .content .cards .card span{
     position: absolute;
     top: 0;
     left: 0;
@@ -369,9 +369,10 @@ nav.top-area .top{
     color: #000;
     height: 100%;
 }
-#content-area .content .cards .card:nth-child(2){
+#content-area-1 .content .cards .card:nth-child(2){
     margin: 0 40px;
 }
+
 #text-area-1 .flexslider .slides li .content a h1, #text-area-1 .flexslider .slides li .content a span{
     width: 75%;
 }
@@ -514,6 +515,18 @@ nav.top-area .top{
     height: 100%;
 }
 
+#board {
+    width:100%;
+    min-height: 100%;
+    background: #fff;
+}
+#board .board-area{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+
 /* 스마트폰 (가로 및 세로) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 
@@ -645,12 +658,12 @@ nav.top-area .top{
     .scroll a {
         display :none;
     }
-    #content-area .content .cards .card{
+    #content-area-1 .content .cards .card{
         float:none;
         margin-top : 1em;
 
     }
-    #content-area .content .cards .card:nth-child(2){
+    #content-area-1 .content .cards .card:nth-child(2){
         margin: 1em 0 0 0;
     }
     #skill .wrap .content{
@@ -687,15 +700,78 @@ nav.top-area .top{
     }
     .lscape{
         display: block;
-        background-color: grey;
+        background-color: #fff;
         width:100%;
         height:100%;
         z-index: 10;
     }
-    .lscape h4{
-        color : #ffffff;
+    .lscape .content{
+        height: 100%;
+        display: table;
+        margin: 0 auto;
+    }
+
+    .lscape .content h1{
+        display: table-cell;
+        vertical-align: middle;
+        font-size: 1.8rem;
+        font-weight: 900;
+        font-family: 'Teko', sans-serif;
+    }
+}
+
+/* 아이패드 (가로 및 세로) ----------- */
+@media only screen and (min-device-width : 480px) and (max-device-width : 1024px) and (orientation: portrait) {
+    nav.posision-right .top-menu{
         text-align: center;
-        z-index: 12;
-        padding-top: 40vh;
+        height: 5em;
+        width: 100%;
+        background-color : #3a313a;
+        z-index: 1;
+        top: 0;
+        margin: 0;
+        left: 0;
+        border-radius: 0;
+        z-index: 20;
+        border: 0;
+        padding: 0.8rem 0;
+    }
+    /* 탑메뉴 */
+    nav.posision-top-fixed .top-menu{
+        position: fixed;
+        top : 0;
+    }
+    nav.posision-top .top-menu .menu ,.posision-top-fixed .top-menu .menu{
+        display: inline-block;
+    }
+
+    nav.posision-right .top-menu .menu li {
+        float : left;
+        padding-right : 25px;
+        font-size: 1.255rem;
+    }
+    #content-area-1 .content .cards .card{
+        float:none;
+        margin-top : 1em;
+
+    }
+    #content-area-1 .content .cards .card:nth-child(2){
+        margin: 1em 0 0 0;
+    }
+    #skill .wrap .content{
+        width:100%;
+        padding : 0;
+        top : 0;
+        left : 0;
+        margin-left: 0;
+        margin-top: 7em;
+        border-bottom-left-radius: 1em;
+        border-bottom-right-radius: 1em;
+    }
+    #skill .wrap .content .s-list-box {
+        width: 100%;
+    }
+    #skill .wrap .content .s-list-box .s-list li{
+        width: 50%;
     }
 }
