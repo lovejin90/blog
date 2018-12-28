@@ -8,5 +8,9 @@ $route['about'] = 'mainController/about';
 $route['skill'] = 'mainController/skill';
 $route['board'] = 'mainController/board';
 
+
+// test
+$route['plex-update'] = 'plexController';
+
 // $route['gate'] = 'adminController/gate';
 // $route['admin'] = 'adminController/index';
