@@ -27,8 +27,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<script src="<?=$lib_dir?>flexslider/js/jquery.flexslider.js"></script>
     
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR|Teko" rel="stylesheet">
-
-	<script src="<?=$lib_dir?>js/main.js"></script>
-	<link href="<?=$lib_dir?>css/main.css" rel="stylesheet">
+    <style>
+        html,body{
+            min-height:100%;
+        }
+    </style>
 </head>
 <body>
+    <?php foreach($movieData['movie'] as $k => $v) : ?>
+        <?=$v?>
+    <?php endforeach;?>
+
+
+</body>
+</html>
